@@ -54,7 +54,7 @@ jobs:
       - run:
           name: Deploy to S3
           command: 
-            ~/kevchang14/kevchang14-website-vue/s3deploy -source=dist/ -region=ap-southeast-1 -bucket=personal-test-website-static-content
+            ./s3deploy -source=dist/ -region=ap-southeast-1 -bucket=personal-test-website-static-content
 
 workflows:
   version: 2
