@@ -31,9 +31,9 @@ export default {
       projectList: [
         { 
           title: 'Personal Website', 
-          description: 'You\'re currently looking at it! Learned Vue to experience a new front end framework and \
-          implemented a CI pipeline from GitHub through S3. Static content is deployed from a S3 bucket through the \
-          CloudFront CDN.' 
+          description: 'You\'re currently looking at it! Learned Vue to try a new front end framework and \
+          implemented a CI/CD pipeline from GitHub through S3 using CirclCI. Static content is distributed from \
+          the S3 bucket through CloudFront CDN.' 
         },
         { 
           title: 'Real Estate Analytics', 
