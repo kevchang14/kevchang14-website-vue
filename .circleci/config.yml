@@ -1,6 +1,8 @@
 version: 2
 jobs:
   install-dependencies:
+    docker:
+      - image: circleci/node:8.11.2
     working_directory: ~/kevchang14/kevchang14-website-vue
     steps:
       - checkout
@@ -64,6 +66,7 @@ workflows:
       - deploy:
           requires:
             - build
+            - install-dependencies
           filters:
             branches:
               only: master
