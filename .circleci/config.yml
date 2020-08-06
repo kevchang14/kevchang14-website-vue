@@ -32,7 +32,7 @@ jobs:
           at: ~/kevchang14/kevchang14-website-vue
       - restore_cache:
           key: v1-pkg-cache
-      - run: go get -v github.com/bep/s3deploy
+      - run: go get -u -v github.com/bep/s3deploy
       - save_cache:
           key: v1-pkg-cache
           paths:
