@@ -3,6 +3,7 @@ jobs:
   install-dependencies:
     docker:
       - image: circleci/node:8.11.2
+    parallelism: 1
     working_directory: ~/kevchang14/kevchang14-website-vue
     steps:
       - checkout
@@ -12,6 +13,7 @@ jobs:
           name: "Install s3deploy"
           command: curl -L https://github.com/bep/s3deploy/releases/download/v2.3.2/s3deploy_2.3.2_Linux-64bit.tar.gz | tar xvz
       - persist_to_workspace:
+          root: .
           paths:
             - s3deploy
 
