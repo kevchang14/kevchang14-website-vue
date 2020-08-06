@@ -47,13 +47,6 @@ jobs:
       - checkout
       - attach_workspace:
           at: ~/kevchang14/kevchang14-website-vue
-      - restore_cache:
-          key: v1-pkg-cache
-      - run: go get -u -v github.com/bep/s3deploy
-      - save_cache:
-          key: v1-pkg-cache
-          paths:
-            - /go/pkg
       - run:
           name: Deploy to S3
           command: |
