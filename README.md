@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### CI/CD Tutorial
+https://dev.to/rossta/deploying-a-vuejs-website-to-amazon-s3-with-circleci--5hh7
