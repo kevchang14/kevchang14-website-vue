@@ -3,7 +3,7 @@
         <b-navbar toggleable="lg" type="dark" variant="dark" sticky=true>
             <b-navbar-brand href="#">Kevin Chang</b-navbar-brand>
 
-            <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+            <!--<b-navbar-toggle target="nav-collapse"></b-navbar-toggle>-->
 
             <b-collapse id="nav-collapse" is-nav>
                 <!--<b-navbar-nav>
