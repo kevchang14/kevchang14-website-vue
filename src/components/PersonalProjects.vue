@@ -35,7 +35,7 @@ export default {
           implemented a CI/CD pipeline from GitHub through S3 using CirclCI. Static content is distributed from \
           the S3 bucket through CloudFront CDN.' 
         },
-        { 
+        /*{ 
           title: 'Real Estate Analytics', 
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis auctor porttitor. \
           Donec imperdiet ornare sem, id egestas urna molestie at. Vivamus sit amet nisi ut sem euismod consectetur. \
@@ -45,7 +45,7 @@ export default {
           lacinia justo eget, porttitor massa. Nam ac rutrum justo. Pellentesque molestie dui vitae varius maximus. \
           Proin mollis pellentesque porttitor. Orci varius natoque penatibus et magnis dis parturient montes, \
           nascetur ridiculus mus. In aliquam mollis dapibus.' 
-        },
+        },*/
       ]
     }
   }

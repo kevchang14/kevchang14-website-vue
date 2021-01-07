@@ -7,9 +7,10 @@
         </div>
         <div class="row">
             <p>
-                I care about solving business problems through leveraging my skills across the data stack.
-                I take a solution agnostic approach and use the best tool for the job, which means I've had to
-                learn new skills while executing my projects.
+                Full stack data scientist passionate about understanding and solving business problems. 
+                Well versed in a broad range of analytical and engineering skills including Machine Learning, 
+                Data Engineering, Data Visualization, Data Analytics, and Web Development. 
+                Spent over 6 years between New York, London, and Hong Kong thus having a unique global perspective.
             </p>
         </div>
     </b-container>
