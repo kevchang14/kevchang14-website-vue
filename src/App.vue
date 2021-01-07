@@ -10,6 +10,7 @@
 </template>
 
 <script>
+//Keep these two components and associated code to show how data can be passed between components
 //import HelloWorld from './components/HelloWorld.vue'
 //import GroceryList from './components/GroceryList.vue'
 import NavBar from './components/NavBar.vue'
@@ -27,7 +28,7 @@ export default {
     //HelloWorld,
     //GroceryList,
   },
-  data: () => {
+  /*data: () => {
     return {
       msg: "Welcome to Your Vue.js App Kevin",
       groceryList: [
@@ -36,7 +37,7 @@ export default {
         { id: 2, text: 'Whatever else humans are supposed to eat' }
       ]
     }
-  }
+  }*/
 }
 </script>
 
