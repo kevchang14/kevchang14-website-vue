@@ -1,24 +1,34 @@
 # kevchang14-website-vue
 
-## Project setup
+## Install Vue CLI
+
+### Install Scoop, a Windows command line installer
+https://github.com/lukesampson/scoop/wiki/Quick-Start
+
+### Install YARN
+Make sure to install nodejs as well
+
+https://classic.yarnpkg.com/en/docs/install/#windows-stable
+
+### Install Vue
+https://cli.vuejs.org/guide/installation.html
+
+The command below installs both Vue as well as the CLI service that enables hot-reloads and serves your static content locally
+
 ```
-npm install
+yarn global add @vue/cli @vue/cli-service-global
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Running a project
 
-### Compiles and minifies for production
+### Using the Vue UI
+Start the UI by running 
 ```
-npm run build
+vue ui
 ```
+You can use the UI to create a new project or import an existing project. The UI even includes a handy dependency manager to install new JS packages. Start your development server by 
 
-### Lints and fixes files
-```
-npm run lint
-```
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
